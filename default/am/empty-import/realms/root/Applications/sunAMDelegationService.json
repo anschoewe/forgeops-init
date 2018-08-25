@@ -12,18 +12,18 @@
     "description" : null,
     "attributeNames" : [ ],
     "createdBy" : "id=dsameuser,ou=user,o=userstore",
-    "subjects" : [ "NOT", "OR", "AuthenticatedUsers", "AND", "Identity" ],
-    "entitlementCombiner" : "DenyOverride",
-    "resourceComparator" : null,
     "conditions" : [ ],
+    "lastModifiedDate" : 1535225791887,
+    "subjects" : [ "NOT", "OR", "AuthenticatedUsers", "AND", "Identity" ],
     "saveIndex" : null,
     "searchIndex" : null,
     "applicationType" : "sunAMDelegationService",
-    "resourceTypeUuids" : [ "20a13582-1f32-4f83-905f-f71ff4e2e00d" ],
+    "entitlementCombiner" : "DenyOverride",
+    "resourceComparator" : null,
     "creationDate" : 1535225791887,
-    "lastModifiedDate" : 1535225791887,
     "lastModifiedBy" : "id=dsameuser,ou=user,o=userstore",
     "editable" : true,
+    "resourceTypeUuids" : [ "20a13582-1f32-4f83-905f-f71ff4e2e00d" ],
     "name" : "sunAMDelegationService"
   }
 }

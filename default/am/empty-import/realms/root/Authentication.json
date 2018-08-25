@@ -38,7 +38,7 @@
       "moduleBasedAuthEnabled" : true,
       "zeroPageLoginAllowedWithoutReferrer" : true,
       "sharedSecret" : null,
-      "sharedSecret-encrypted" : "AAAAA0FFUwIQcrD+kPiBoofcTKSw92lMkhA5gVoWQFJa0N7+BL0/E0W6bTJQkMXT0cgUAik2Iy8d8fhxeNGVsVXFOJn2tDjtY6PRbQuSDw7i",
+      "sharedSecret-encrypted" : "AAAAA0FFUwIQg3SCkJbsVrr5mI1INabb32Qg9mkl9cxAuXy4LeP7YkSbJyCBpdsXDuEhxpJsucJKAsEm34rIuTHjdy9a37XH/aYSXsv/QTBi",
       "keyAlias" : "test",
       "zeroPageLoginEnabled" : false,
       "zeroPageLoginReferrerWhiteList" : [ ]
@@ -52,7 +52,7 @@
       "loginSuccessUrl" : [ "/openam/console" ]
     },
     "core" : {
-      "orgConfig" : "ldapService",
+      "orgConfig" : "opendj-chain",
       "adminAuthModule" : "ldapService"
     },
     "trees" : {

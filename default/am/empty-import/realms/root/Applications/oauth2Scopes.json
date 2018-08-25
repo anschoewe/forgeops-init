@@ -12,18 +12,18 @@
     "description" : "The built-in Application used by the OAuth2 scope authorization process.",
     "attributeNames" : [ ],
     "createdBy" : "id=dsameuser,ou=user,o=userstore",
-    "subjects" : [ "NOT", "OR", "JwtClaim", "AuthenticatedUsers", "AND", "Identity", "NONE" ],
-    "entitlementCombiner" : "DenyOverride",
-    "resourceComparator" : null,
     "conditions" : [ "LEAuthLevel", "Script", "AuthenticateToService", "SimpleTime", "AMIdentityMembership", "OR", "IPv6", "IPv4", "SessionProperty", "AuthScheme", "AuthLevel", "NOT", "Transaction", "AuthenticateToRealm", "AND", "ResourceEnvIP", "LDAPFilter", "OAuth2Scope", "Session" ],
+    "lastModifiedDate" : 1535225791805,
+    "subjects" : [ "NOT", "OR", "JwtClaim", "AuthenticatedUsers", "AND", "Identity", "NONE" ],
     "saveIndex" : null,
     "searchIndex" : null,
     "applicationType" : "iPlanetAMWebAgentService",
-    "resourceTypeUuids" : [ "d60b7a71-1dc6-44a5-8e48-e4b9d92dee8b" ],
+    "entitlementCombiner" : "DenyOverride",
+    "resourceComparator" : null,
     "creationDate" : 1535225791805,
-    "lastModifiedDate" : 1535225791805,
     "lastModifiedBy" : "id=dsameuser,ou=user,o=userstore",
     "editable" : true,
+    "resourceTypeUuids" : [ "d60b7a71-1dc6-44a5-8e48-e4b9d92dee8b" ],
     "name" : "oauth2Scopes"
   }
 }

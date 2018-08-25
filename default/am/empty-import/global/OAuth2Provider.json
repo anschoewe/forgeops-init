@@ -14,7 +14,7 @@
     "blacklistPollInterval" : 60,
     "statelessGrantTokenUpgradeCompatibilityMode" : false,
     "idTokenAuthenticitySecret" : null,
-    "idTokenAuthenticitySecret-encrypted" : "AAAAA0FFUwIQX1VZKVq9dcDPjC43/XGPFv97B4KygXSkFqkomPfH9erv9h3ftISFZ9GaMjFl4Vvs33oxHy9OtjGhojHYfuaZjyx3zC1yBV2y",
+    "idTokenAuthenticitySecret-encrypted" : "AAAAA0FFUwIQwkBmC0iGGMZ0eIuDEa1Dqb5J5azvwEzFCNVMTntdy4ncf1VmEg++JOfjF/8CIm6Avinpq1M+oCWBEGkwwzBeSXMWNrUiYoiH",
     "defaults" : {
       "coreOAuth2Config" : {
         "refreshTokenLifetime" : 604800,
@@ -30,7 +30,7 @@
         "supportedScopes" : [ ],
         "tokenEncryptionKeyAlias" : "directenctest",
         "tokenSigningHmacSharedSecret" : null,
-        "tokenSigningHmacSharedSecret-encrypted" : "AAAAA0FFUwIQ5DXyF+Z0foIGkVuYMeggw4yrKba6PmMZ0Nx4ox+S6I39hBaz11Q83v/irJS7tQt4bAXsDf2ADcuJ2eG2eKM6JkrPRTH0FUUp",
+        "tokenSigningHmacSharedSecret-encrypted" : "AAAAA0FFUwIQIOrcR+RPN4+rw4x7aB+8v9KdYZzQIirinrs38TbqoOLT2zwqnIYphkQS2w9Vm6D0mIO5ub5GTKlwWlo2m7dmFqj+RJaZgClX",
         "codeVerifierEnforced" : false,
         "tokenSigningAlgorithm" : "HS256",
         "authenticationAttributes" : [ "uid" ],
